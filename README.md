@@ -1,21 +1,17 @@
-# MALIBU v1.0.0 Release Notes
-## Professional Multi-Slope Low-Pass Filter Plugin
+# MALIBU
+## Multi-Slope Low-Pass Filter Plugin
 
-**Release Date:** September 20, 2025  
 **Version:** 1.0.0  
 **Developer:** Solmar Labs  
 
 ---
 
-## 🎉 Initial Release
-
-We're thrilled to announce the first release of **MALIBU**, a professional multi-slope low-pass filter plugin that brings the warmth and beauty of Malibu sunsets to your music production workflow.
+MALIBU is a multi-slope low-pass filter plugin that brings the warmth and beauty of Malibu sunsets to your music production workflow.
 
 ## ✨ Key Features
 
 ### Advanced Filtering
 - **Multi-slope filtering**: Choose from 12dB, 24dB, or 48dB per octave slopes
-- **Topology-Preserving Transform (TPT) algorithms**: State-of-the-art digital signal processing
 - **Sample-accurate automation**: Smooth parameter changes without artifacts
 - **Wide frequency range**: 20 Hz to 20 kHz with musical response characteristics
 
@@ -26,21 +22,14 @@ We're thrilled to announce the first release of **MALIBU**, a professional multi
 
 ### Saturation Processing
 - **Three saturation algorithms**:
-  - **Clean**: Transparent processing with subtle harmonic enhancement
-  - **Warm**: Tube-inspired warmth perfect for melodic content  
-  - **Aggressive**: High-gain saturation for creative sound design
-- **Internal oversampling**: Prevents aliasing in saturation stage
+  - **Clean**: Transparent processing with no added harmonic content
+  - **Tape**: Warm, even-order harmonics inspired by analog tape saturation
+  - **Tube**: Asymmetric saturation with enhanced harmonic character
 
-### Professional Interface
+### Beautiful Interface
 - **Malibu-inspired design**: Beautiful sunset gradient background with wave patterns
 - **Intuitive controls**: Large, easy-to-use rotary knobs with precise control
-- **Company branding**: Elegant Solmar Labs logo integration
 - **Responsive layout**: Optimized for various screen sizes
-
-### Rock-Solid Stability
-- **Thread-safe architecture**: Separate audio and UI threads prevent crashes
-- **Lock-free communication**: High-performance FIFO buffers for real-time operation
-- **Extensive testing**: Validated across multiple DAWs and system configurations
 
 ## 🖥️ System Requirements
 
@@ -72,14 +61,13 @@ We're thrilled to announce the first release of **MALIBU**, a professional multi
 ### Documentation
 - **Complete User Manual**: Comprehensive guide with usage examples and best practices
 - **Quick Start Guide**: Get up and running in 5 minutes
-- **Technical Specifications**: Detailed specs for audio engineers
 
 ### Installation
-- **macOS**: Professional .pkg installer with code signing support
-- **Windows**: NSIS installer with Add/Remove Programs integration
-- **Linux**: .tar.gz package with automatic installation script, .deb and .rpm specs
+- **macOS**: .pkg installer with automatic plugin installation
+- **Windows**: .exe installer with Add/Remove Programs integration
+- **Linux**: .tar.gz package with automatic installation script, .deb and .rpm packages
 
-## 🎛️ Parameter Overview
+## 🎛️ Parameters
 
 | Parameter | Range | Default | Description |
 |-----------|-------|---------|-------------|
@@ -87,7 +75,7 @@ We're thrilled to announce the first release of **MALIBU**, a professional multi
 | **Resonance** | 0.0 - 1.0 | 0.2 | Emphasis at cutoff frequency |
 | **Drive** | 0.0 - 1.0 | 0.0 | Saturation input gain |
 | **Slope** | 12/24/48 dB | 12 dB | Filter steepness per octave |
-| **Saturation** | Clean/Warm/Aggressive | Clean | Harmonic processing type |
+| **Saturation** | Clean/Tape/Tube | Clean | Harmonic processing type |
 
 ## 🎵 Compatibility
 
@@ -109,7 +97,7 @@ We're thrilled to announce the first release of **MALIBU**, a professional multi
 - 176.4 kHz
 - 192 kHz
 
-## 🛠️ Installation Instructions
+## 🛠️ Installation
 
 ### macOS
 1. Download `MALIBU_v1.0.0_macOS.pkg`
@@ -125,14 +113,6 @@ We're thrilled to announce the first release of **MALIBU**, a professional multi
 1. Download `MALIBU_v1.0.0_Linux_x64.tar.gz`
 2. Extract and run `./install.sh`
 3. Restart your DAW and rescan plugins
-
-## 🔧 Technical Highlights
-
-- **Zero-latency processing**: Real-time operation without delay
-- **32-bit floating point**: Internal processing for maximum precision
-- **Optimized performance**: Low CPU usage even with multiple instances
-- **Parameter smoothing**: Prevents zipper noise during automation
-- **Stable at all settings**: No instability even at extreme parameter values
 
 ## 🎨 Usage Examples
 
@@ -152,17 +132,6 @@ We're thrilled to announce the first release of **MALIBU**, a professional multi
 - **Transparent control**: Clean saturation with gentle slopes
 - **Frequency shaping**: Precise control over the high-frequency spectrum
 - **Harmonic enhancement**: Subtle warmth without compromising dynamics
-
-## 📋 Release Checklist Status
-
-- ✅ **Core Development**: Plugin functionality and features complete
-- ✅ **Thread Safety**: Rock-solid stability in professional environments  
-- ✅ **User Interface**: Beautiful, intuitive design with company branding
-- ✅ **Documentation**: Comprehensive manual and quick start guide
-- ✅ **Multi-Platform**: macOS, Windows, and Linux support
-- ✅ **Professional Installers**: Platform-specific installation packages
-- ⏳ **Code Signing**: Certificates and notarization for trusted distribution
-- ⏳ **Quality Assurance**: Extensive testing across DAWs and systems
 
 ## 🆘 Support & Resources
 
@@ -186,7 +155,7 @@ We're committed to continuous improvement of MALIBU. Planned features include:
 - Additional saturation algorithms
 - Performance optimizations
 
-## 📄 Legal
+## 📄 License
 
 **Copyright © 2025 Solmar Labs. All rights reserved.**
 
@@ -194,6 +163,6 @@ MALIBU is a trademark of Solmar Labs. VST is a trademark of Steinberg Media Tech
 
 ---
 
-**Thank you for choosing MALIBU!** We're excited to hear what you create with our plugin. Your feedback and support drive our continued development of professional audio tools.
+**Thank you for choosing MALIBU!** We're excited to hear what you create with our plugin. Your feedback and support drive our continued development of audio tools.
 
 *For the latest updates and information, visit: https://solmarlabs.com*
