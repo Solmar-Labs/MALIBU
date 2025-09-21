@@ -16,8 +16,11 @@
 3. Restart your DAW
 
 ### Linux
-1. Extract `MALIBU_Linux_x64.tar.gz`
-2. Run `sudo ./install.sh`
+1. Download `MALIBU_Linux_x64.deb` (recommended)
+2. Run `sudo dpkg -i MALIBU_Linux_x64.deb`
+3. Restart your DAW
+
+*Alternative: Extract `MALIBU_Linux_x64.tar.gz` and run `sudo ./install.sh`*
 3. Restart your DAW
 
 ---
@@ -57,14 +60,14 @@
 - Resonance: 0.4
 - Drive: 0.3
 - Slope: 24dB
-- Saturation: Warm
+- Saturation: Tape
 
 ### **Dramatic Sweep** (Creative)
 - Cutoff: 500 Hz → Automate up
 - Resonance: 0.8
 - Drive: 0.5
 - Slope: 48dB
-- Saturation: Aggressive
+- Saturation: Tube
 
 ---
 
@@ -90,7 +93,7 @@
 - Reduce drive amount
 
 **Need help?**
-📧 support@solmarlabs.com
+📧 john.goodman@mediumroast.io
 
 ---
 

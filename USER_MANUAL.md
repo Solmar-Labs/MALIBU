@@ -20,14 +20,12 @@
 
 ## Introduction
 
-**MALIBU** is a professional multi-slope low-pass filter plugin designed to bring warmth, character, and precise frequency shaping to your music production. Inspired by the golden sunsets and pristine coastlines of Malibu, this plugin combines cutting-edge digital signal processing with an intuitive, visually stunning interface.
+**MALIBU** is a multi-slope low-pass filter plugin designed to bring warmth, character, and precise frequency shaping to your music production. 
 
 ### Key Features
 - **Multi-slope filtering**: Choose from 12dB, 24dB, or 48dB per octave slopes
 - **Real-time frequency response visualization**: See exactly how your filter affects the audio spectrum
-- **Multiple saturation algorithms**: Add harmonic richness with Clean, Warm, or Aggressive saturation
-- **Thread-safe design**: Rock-solid stability in professional DAW environments
-- **Beautiful Malibu-inspired interface**: Sunset gradient design with smooth animations
+- **Multiple saturation algorithms**: Add harmonic richness with Clean, Tape, or Tube saturation
 
 ---
 
@@ -83,12 +81,18 @@ The installer places the plugin in:
 
 ### Linux Installation
 
+#### Option 1: .deb Package (Recommended for Debian/Ubuntu)
+1. **Download** the `MALIBU_Linux_x64.deb` package
+2. **Install** using dpkg: `sudo dpkg -i MALIBU_Linux_x64.deb`
+3. **Restart** your DAW and rescan plugins
+
+#### Option 2: .tar.gz Package
 1. **Download** the `MALIBU_Linux_x64.tar.gz` package
 2. **Extract** the archive: `tar -xzf MALIBU_Linux_x64.tar.gz`
 3. **Run** the installation script: `sudo ./install.sh`
 4. **Restart** your DAW and rescan plugins
 
-Manual installation:
+#### Manual installation:
 ```bash
 mkdir -p ~/.vst3
 cp MALIBU.vst3 ~/.vst3/
@@ -99,43 +103,23 @@ cp MALIBU.vst3 ~/.vst3/
 ## Features Overview
 
 ### Advanced Low-Pass Filtering
-MALIBU implements state-of-the-art Topology-Preserving Transform (TPT) filter algorithms, providing:
-- Musical, analog-like response characteristics
-- Stable operation at all cutoff frequencies
-- Minimal aliasing and digital artifacts
-- Sample-accurate parameter automation
+MALIBU delivers smooth, musical filtering that responds naturally to your music:
+- Warm, analog-inspired sound character
+- Stable performance across the entire frequency spectrum
+- Clean, artifact-free processing
+- Precise, responsive automation
 
 ### Real-Time Visual Feedback
 The integrated frequency response display shows:
 - Current filter curve in real-time
 - Visual representation of cutoff frequency and resonance
 - Interactive feedback that updates as you adjust parameters
-- Smooth animations that enhance the user experience
 
 ### Saturation Processing
 Three carefully crafted saturation algorithms add harmonic content:
-- **Clean**: Transparent processing with subtle harmonic enhancement
-- **Warm**: Tube-inspired warmth perfect for melodic content
-- **Aggressive**: High-gain saturation for creative sound design
-
----
-
-## User Interface
-
-### Layout Overview
-The MALIBU interface features a beautiful Malibu sunset gradient background with intuitive control placement:
-
-- **Top**: Plugin title "MALIBU" and Solmar Labs logo
-- **Center**: Three main rotary controls (Cutoff, Resonance, Drive)
-- **Upper Right**: Frequency response visualization
-- **Lower Center**: Slope selector (12dB, 24dB, 48dB)
-- **Bottom**: Saturation type selector (Clean, Warm, Aggressive)
-
-### Visual Design Elements
-- **Sunset Gradient**: Multi-layered color gradient inspired by Malibu sunsets
-- **Wave Patterns**: Subtle wave animations reflecting the coastal theme
-- **Golden Accents**: Elegant border and highlight colors
-- **Professional Typography**: Clean, readable font choices throughout
+- **Clean**: Transparent processing with no added harmonic content
+- **Tape**: Warm, even-order harmonics inspired by analog tape saturation
+- **Tube**: Asymmetric saturation with enhanced harmonic character
 
 ---
 
@@ -169,13 +153,13 @@ The MALIBU interface features a beautiful Malibu sunset gradient background with
   - 48dB: Steep, precise filtering
 
 ### Saturation Type
-- **Options**: Clean, Warm, Aggressive
+- **Options**: Clean, Tape, Tube
 - **Default**: Clean
 - **Description**: Selects the saturation algorithm
 - **Characteristics**:
   - **Clean**: Minimal coloration, transparent processing
-  - **Warm**: Even-order harmonics, tube-like warmth
-  - **Aggressive**: Asymmetric clipping, enhanced harmonics
+  - **Tape**: Warm, even-order harmonics inspired by analog tape saturation
+  - **Tube**: Asymmetric saturation with enhanced harmonic character
 
 ---
 
@@ -194,7 +178,7 @@ The MALIBU interface features a beautiful Malibu sunset gradient background with
 1. **Set** a low cutoff frequency (200-500 Hz)
 2. **Increase** resonance to near maximum
 3. **Select** 48dB slope for aggressive filtering
-4. **Add** drive and select "Aggressive" saturation
+4. **Add** drive and select "Tube" saturation
 5. **Automate** the cutoff frequency for dramatic sweeps
 
 ### Mixing Applications
@@ -283,7 +267,7 @@ The MALIBU interface features a beautiful Malibu sunset gradient background with
 ### Contact Support
 
 If you continue experiencing issues:
-- Email: support@solmarlabs.com
+- Email: john.goodman@mediumroast.io
 - Include your system specifications
 - Describe the exact steps to reproduce the issue
 - Attach any relevant error messages or crash logs
@@ -321,7 +305,7 @@ If you continue experiencing issues:
 - FAQ section
 
 ### Technical Support
-- **Email**: support@solmarlabs.com
+- **Email**: john.goodman@mediumroast.io
 - **Response Time**: 24-48 hours
 - **Languages**: English
 - **Coverage**: Installation, usage, troubleshooting

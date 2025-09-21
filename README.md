@@ -100,19 +100,21 @@ MALIBU is a multi-slope low-pass filter plugin that brings the warmth and beauty
 ## 🛠️ Installation
 
 ### macOS
-1. Download `MALIBU_v1.0.0_macOS.pkg`
+1. Download `MALIBU_macOS.pkg`
 2. Double-click and follow the installer
 3. Restart your DAW and rescan plugins
 
 ### Windows
-1. Download `MALIBU_v1.0.0_Windows_x64.exe`
+1. Download `MALIBU_Windows_x64.exe`
 2. Run as administrator and follow the installer
 3. Restart your DAW and rescan plugins
 
 ### Linux
-1. Download `MALIBU_v1.0.0_Linux_x64.tar.gz`
-2. Extract and run `./install.sh`
+1. Download `MALIBU_Linux_x64.deb` (recommended for Debian/Ubuntu)
+2. Install: `sudo dpkg -i MALIBU_Linux_x64.deb`
 3. Restart your DAW and rescan plugins
+
+*Alternative: Download .tar.gz, extract and run `./install.sh`*
 
 ## 🎨 Usage Examples
 
@@ -124,8 +126,8 @@ MALIBU is a multi-slope low-pass filter plugin that brings the warmth and beauty
 
 ### Creative Sound Design
 - **Filter sweeps**: Automate cutoff with high resonance for dramatic effects
-- **Vintage warmth**: Use Warm saturation with gentle filtering
-- **Aggressive textures**: Combine steep slopes with Aggressive saturation
+- **Vintage warmth**: Use Tape saturation with gentle filtering
+- **Aggressive textures**: Combine steep slopes with Tube saturation
 - **Movement and interest**: Subtle automation brings static sounds to life
 
 ### Mastering Applications
@@ -136,7 +138,7 @@ MALIBU is a multi-slope low-pass filter plugin that brings the warmth and beauty
 ## 🆘 Support & Resources
 
 ### Getting Help
-- **Email Support**: support@solmarlabs.com
+- **Email Support**: john.goodman@mediumroast.io
 - **Documentation**: Complete user manual included
 - **Website**: https://solmarlabs.com
 - **Response Time**: 24-48 hours for technical support
