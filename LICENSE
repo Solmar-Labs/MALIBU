@@ -1,28 +1,40 @@
-BSD 3-Clause License
+SOLMAR LABS SOFTWARE LICENSE AGREEMENT
 
-Copyright (c) 2025, Solmar Labs
+MALIBU Audio Plugin v1.0.0
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+IMPORTANT - READ CAREFULLY: This Software License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity) and Solmar Labs for the MALIBU audio plugin software product identified above, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("Software Product").
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE PRODUCT, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT INSTALL OR USE THE SOFTWARE PRODUCT.
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+1. GRANT OF LICENSE
+Solmar Labs grants you a non-exclusive license to use the Software Product. You may:
+- Install and use the Software Product on multiple computers that you own or control
+- Use the Software Product for commercial and non-commercial music production
+- Use audio created with the Software Product in any musical works without restriction
 
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
+2. RESTRICTIONS
+You may not:
+- Distribute, sell, lease, rent, or sublicense the Software Product
+- Reverse engineer, decompile, or disassemble the Software Product
+- Remove or alter any copyright notices or proprietary markings
+- Use the Software Product to create competing audio plugin products
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+3. COPYRIGHT
+The Software Product is protected by copyright laws and international copyright treaties. Solmar Labs retains all rights, title, and interest in and to the Software Product.
+
+4. TERMINATION
+This license is effective until terminated. Your rights under this license will terminate automatically without notice from Solmar Labs if you fail to comply with any term(s) of this Agreement.
+
+5. DISCLAIMER OF WARRANTIES
+THE SOFTWARE PRODUCT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. SOLMAR LABS DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+6. LIMITATION OF LIABILITY
+IN NO EVENT SHALL SOLMAR LABS BE LIABLE FOR ANY DAMAGES WHATSOEVER ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE PRODUCT.
+
+7. GOVERNING LAW
+This Agreement shall be governed by the laws of the jurisdiction where Solmar Labs is located.
+
+Copyright © 2025 Solmar Labs. All rights reserved.
+
+Contact: support@solmarlabs.com
+Website: solmarlabs.com
